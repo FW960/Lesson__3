@@ -6,7 +6,21 @@ namespace Lesson3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+        int i = 0;
+
+        string hi = Console.ReadLine();
+
+        i = hi.Length - 1;
+
+        do
+        {
+
+        Console.Write(hi[i]);
+
+        i--;
+        } while (i <= hi.Length && i >= 0);
+
+        Console.WriteLine();
         }
     }
 }
